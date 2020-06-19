@@ -4,15 +4,16 @@
  
 ## Description
  
-  [Description of program functionality & intent presented as an elevator pitch]
+  This web page simulates the pizza ordering process online by asking the user to select a size and one or more toppings, then displaying the selections and calculating a price total!
  
 ## Languages & Technologies Used:
  
   ### Programming Languages & Libraries
-  * [Unordered List]
- 
-  ### Operating Systems & Programs
-  * [Unordered List]
+  * HTML
+  * CSS
+  * Bootstrap
+  * JQuery
+  * Javascript
  
 ## Installation
  
@@ -27,11 +28,11 @@
  
 |Behavior   |Input   |Output   |
 |---|---|---|
-|Program will allow user to choose size of pizza  |   |   |
-|Program will allow user to choose a topping  |   |   |
-|Program will allow user to choose multiple toppings   |   |   |
-| Program will calculate price based on user choices  |   |   |
-|Program will display price   |   |   |
+|Program will allow user to choose size of pizza  | "large"  |"size: large"   |
+|Program will allow user to choose a topping  |"pepperoni"   |"Toppings: pepperoni"   |
+|Program will allow user to choose multiple toppings   | "pepperoni, onion"  |"Toppings: pepperoni, onion"   |
+| Program will calculate price based on user choices  | "size: small; toppings: Pepperoni, onion; Add to Order" ;"Size large; Toppings: mushroom; Add to Order"| "Order total: $12";"Order total: $14  |
+|Program will display price   | "size: small; toppings: Pepperoni, onion; Add to Order"   | "Order total: $12"  |
 |   |   |   |
 |   |   |   |
 |   |   |   |
@@ -44,10 +45,7 @@
  
 ## Known Bugs
  
-  * No known bugs at this time. 
-### Contributors
- 
-  * [Contributor(s): Anyone who contributed at least %5 of the total product.]
+  * Input form does not reset after submission and continues to append selections to Order display.
  
 ### License
  

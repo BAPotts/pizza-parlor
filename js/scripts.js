@@ -22,6 +22,7 @@ Pizza.prototype.price = function() {
 $(document).ready(function(){
 $("form").submit(function(event) {
   event.preventDefault();
+  
   const size = $("input:radio[name=pizza-size]:checked").val();
   const toppings=[];
   $("input:checkbox[name=topping]:checked").each(function(){
@@ -29,6 +30,11 @@ $("form").submit(function(event) {
   }) 
   let newPizza = new Pizza(size, toppings);
   let price = newPizza.price();
-  $("#price-display").html("Your pizza is $" + price);
+  toppings.forEach(function(topping) {
+    $("ul#toppings-list").append("<li>" + topping + "</li>");
+  })
+  $("#size").append(" " + newPizza.size);
+  $("#price-display").html("Order Total: $" + price);
+  $(".well").show();
   })
 })

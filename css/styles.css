@@ -3,10 +3,13 @@ body {
   color: white;
 }
 
+hr {
+  border-color: black;
+}
+
 .nav{
   background-color: darkred;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
   width: 100%;
 }
 
@@ -15,8 +18,8 @@ body {
   height: auto;
 }
 
-.form-group{
-
+button {
+  color: black;
 }
 #logo {
   float: left;
@@ -32,4 +35,15 @@ body {
   flex-shrink: 0;
   margin-top: 8px;
   margin-bottom: 8px;
+}
+
+#price-display{
+  text-align: right;
+}
+
+.well {
+  color: black;
+  display:none;
+  font-size: medium;
+  font-weight: bold;
 }
