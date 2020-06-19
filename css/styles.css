@@ -1,10 +1,20 @@
-.jumbotron{
-  background-color: red;
+.nav{
+  background-color: darkred;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
+  width: 100%;
 }
 
 .responsive{
-  max-width: 100%;
+  width: 100%;
   height: auto;
+}
+
+#logo {
+  float: left;
+  width: 200px;
+  flex-shrink: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+ 
 }
