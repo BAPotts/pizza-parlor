@@ -29,6 +29,6 @@ $("form").submit(function(event) {
   }) 
   let newPizza = new Pizza(size, toppings);
   let price = newPizza.price();
-  $(".well").html("Your pizza is $" + price);
+  $("#price-display").html("Your pizza is $" + price);
   })
 })
