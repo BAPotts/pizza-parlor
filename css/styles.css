@@ -1,3 +1,8 @@
+body {
+  background-color: darkred;
+  color: white;
+}
+
 .nav{
   background-color: darkred;
   text-align: center;
@@ -10,6 +15,9 @@
   height: auto;
 }
 
+.form-group{
+
+}
 #logo {
   float: left;
   width: 200px;
