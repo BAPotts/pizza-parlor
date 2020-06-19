@@ -1,5 +1,4 @@
 //Business Logic-----------
-
 function Pizza(size, toppings) {
   this.size = size;
   this.toppings = toppings;
@@ -19,8 +18,6 @@ Pizza.prototype.price = function() {
   }  
   return price;
 }
-
-
 //UI Logic------------------
 $(document).ready(function(){
 $("form").submit(function(event) {
@@ -29,10 +26,9 @@ $("form").submit(function(event) {
   const toppings=[];
   $("input:checkbox[name=topping]:checked").each(function(){
     toppings.push($(this).val());
-  
   }) 
   let newPizza = new Pizza(size, toppings);
   let price = newPizza.price();
-  alert(price);
+  $(".well").html("Your pizza is $" + price);
   })
 })
