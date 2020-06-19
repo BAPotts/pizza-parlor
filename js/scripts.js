@@ -5,16 +5,20 @@ function Pizza(size, toppings) {
   this.toppings = toppings;
 }
 
-
-
-
-
-
-
-
-
-
-
+Pizza.prototype.price = function() {
+  let price;
+  if (this.size === "large"){
+    price = 12;
+  } else if (this.size === "medium"){
+    price = 10;
+  } else {
+    price = 8;
+  }
+  for(i=0;i < this.toppings.length; i++){
+    price += 2;
+  }  
+  return price;
+}
 
 
 //UI Logic------------------
@@ -28,6 +32,7 @@ $("form").submit(function(event) {
   
   }) 
   let newPizza = new Pizza(size, toppings);
-  alert(newPizza.toppings[0]);
+  let price = newPizza.price();
+  alert(price);
   })
 })
