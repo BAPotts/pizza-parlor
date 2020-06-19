@@ -1,4 +1,4 @@
-# [Program Title]
+# Pizza Parlor
  
   ### By Beverly Potts
  
@@ -16,7 +16,7 @@
  
 ## Installation
  
-  1. Open a web browser, such as Google Chrome, and navigate to https://github.com/BAPotts/[repository].
+  1. Open a web browser, such as Google Chrome, and navigate to https://github.com/BAPotts/pizza-parlor .
   3. Click the green "Clone or download" button at the right of the screen.
   4. Select "Download ZIP."
   5. Use a file extractor or unzip program (such as PeaZip, Unzipper, WinZip, Zipware, or 7-ZIP) to extract the ZIP files onto your computer.
@@ -25,13 +25,13 @@
  
 ## Specifications
  
-|   |   |   |
+|Behavior   |Input   |Output   |
 |---|---|---|
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+|Program will allow user to choose size of pizza  |   |   |
+|Program will allow user to choose a topping  |   |   |
+|Program will allow user to choose multiple toppings   |   |   |
+| Program will calculate price based on user choices  |   |   |
+|Program will display price   |   |   |
 |   |   |   |
 |   |   |   |
 |   |   |   |
