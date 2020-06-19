@@ -12,45 +12,62 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <img src="img/pizza.jpg" alt="Rustic pizza with arugula topping" class="responsive">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/diablographic.gif" alt="Ridic 90s graphic of pizza logo" class="responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="img/diablographic.gif" alt="Ridic 90s graphic of pizza logo" class="responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="img/diablographic.gif" alt="Ridic 90s graphic of pizza logo" class="responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="img/diablographic.gif" alt="Ridic 90s graphic of pizza logo" class="responsive">
+          </div>
+        </div>
+        <div class="row">
+          <img src="img/pizza.jpg" alt="Rustic pizza with arugula topping" class="responsive">
+        </div>
       </div>
-      <form>
-        <div id="size-input" class="form-group">
-          <h2>Select a Pizza Size:</h2>
-          <div class="radio">
-            <label>
-              <input type = "radio" name="pizza-size" value="small" checked>
-              Small
-            </label>
+        <form>
+          <div id="size-input" class="form-group">
+            <h2>Select a Pizza Size:</h2>
+            <div class="radio">
+              <label>
+                <input type = "radio" name="pizza-size" value="small" checked>
+                Small
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type = "radio" name="pizza-size" value="medium">
+                Medium
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type = "radio" name="pizza-size" value="large">
+                Large
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type = "radio" name="pizza-size" value="medium">
-              Medium
-            </label>
+          <br>
+          <div id="toppings-input" class="form-group">
+            <h2>Select Your Toppings:</h2>
+            <input type="checkbox" name="topping" value="pepperoni"> Pepperoni<br>
+            <input type="checkbox" name="topping" value="onion"> Onion<br>
+            <input type="checkbox" name="topping" value="green-olive"> Green Olive<br>
+            <input type="checkbox" name="topping" value="mushroom"> Mushroom<br>
+            <input type="checkbox" name="topping" value="pineapple"> Pineapple<br>
+            <input type="checkbox" name="topping" value="bacon"> Bacon<br>
+            <input type="checkbox" name="topping" value="roasted-red-pepper"> Roasted Red Pepper<br>
+            <input type="checkbox" name="topping" value="sausage">Sausage<br>
           </div>
-          <div class="radio">
-            <label>
-              <input type = "radio" name="pizza-size" value="large">
-              Large
-            </label>
-          </div>
-        </div>
-        <br>
-        <div id="toppings-input" class="form-group">
-          <h2>Select Your Toppings:</h2>
-          <input type="checkbox" name="topping" value="pepperoni"> Pepperoni<br>
-          <input type="checkbox" name="topping" value="onion"> Onion<br>
-          <input type="checkbox" name="topping" value="green-olive"> Green Olive<br>
-          <input type="checkbox" name="topping" value="mushroom"> Mushroom<br>
-          <input type="checkbox" name="topping" value="pineapple"> Pineapple<br>
-          <input type="checkbox" name="topping" value="bacon"> Bacon<br>
-          <input type="checkbox" name="topping" value="roasted-red-pepper"> Roasted Red Pepper<br>
-          <input type="checkbox" name="topping" value="sausage">Sausage<br>
-        </div>
-        <button type="submit">submit</button>
-      </form>
-      <div id="price-display" class="well">
+          <button type="submit">submit</button>
+        </form>
+        <div id="price-display" class="well">
+      
         
       </div>
     </div>
